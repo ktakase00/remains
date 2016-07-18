@@ -1,0 +1,14 @@
+target: .rb|.sql
+pattern:
+  - todo|TODO
+  - = (null|NULL)
+exclude:
+  - .git
+  - .bundle
+  - vendor/bundle
+  - vendor/bundler
+  - node_modules
+  - log
+  - tmp
+  - spec
+  - test
